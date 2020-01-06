@@ -12,7 +12,7 @@
   <body>
     <div class="container">
       <%= link_to "Home", root_path %> | 
-      <%= link_to "Users", users_path %> | 
+      <%= link_to "Posts", posts_path %> | 
       <% if user_signed_in? %>
         <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
         <% else %>
